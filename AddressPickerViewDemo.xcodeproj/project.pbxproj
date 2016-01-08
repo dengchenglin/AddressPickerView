@@ -13,6 +13,8 @@
 		32F0A7D11C40047F001C5575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F0A7CF1C40047F001C5575 /* Main.storyboard */; };
 		32F0A7D31C40047F001C5575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F0A7D21C40047F001C5575 /* Assets.xcassets */; };
 		32F0A7D61C40047F001C5575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F0A7D41C40047F001C5575 /* LaunchScreen.storyboard */; };
+		32F0A7E21C4004A4001C5575 /* AddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F0A7DF1C4004A4001C5575 /* AddressPickerView.m */; };
+		32F0A7E31C4004A4001C5575 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32F0A7E11C4004A4001C5575 /* area.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		32F0A7D21C40047F001C5575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32F0A7D51C40047F001C5575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32F0A7D71C40047F001C5575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F0A7DE1C4004A4001C5575 /* AddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressPickerView.h; sourceTree = "<group>"; };
+		32F0A7DF1C4004A4001C5575 /* AddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressPickerView.m; sourceTree = "<group>"; };
+		32F0A7E11C4004A4001C5575 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 		32F0A7C51C40047F001C5575 /* AddressPickerViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				32F0A7DD1C4004A4001C5575 /* AddressPickerView */,
 				32F0A7C91C40047F001C5575 /* AppDelegate.h */,
 				32F0A7CA1C40047F001C5575 /* AppDelegate.m */,
 				32F0A7CC1C40047F001C5575 /* ViewController.h */,
@@ -77,6 +83,24 @@
 				32F0A7C71C40047F001C5575 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32F0A7DD1C4004A4001C5575 /* AddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				32F0A7DE1C4004A4001C5575 /* AddressPickerView.h */,
+				32F0A7DF1C4004A4001C5575 /* AddressPickerView.m */,
+				32F0A7E01C4004A4001C5575 /* Resoures */,
+			);
+			path = AddressPickerView;
+			sourceTree = "<group>";
+		};
+		32F0A7E01C4004A4001C5575 /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				32F0A7E11C4004A4001C5575 /* area.plist */,
+			);
+			path = Resoures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32F0A7D61C40047F001C5575 /* LaunchScreen.storyboard in Resources */,
+				32F0A7E31C4004A4001C5575 /* area.plist in Resources */,
 				32F0A7D31C40047F001C5575 /* Assets.xcassets in Resources */,
 				32F0A7D11C40047F001C5575 /* Main.storyboard in Resources */,
 			);
@@ -150,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32F0A7CE1C40047F001C5575 /* ViewController.m in Sources */,
+				32F0A7E21C4004A4001C5575 /* AddressPickerView.m in Sources */,
 				32F0A7CB1C40047F001C5575 /* AppDelegate.m in Sources */,
 				32F0A7C81C40047F001C5575 /* main.m in Sources */,
 			);
